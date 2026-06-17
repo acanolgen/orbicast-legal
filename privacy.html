@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Orbicast — Privacy Policy</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #05070b; color: #e8f6fb; line-height: 1.65;
+  }
+  .bg {
+    position: fixed; inset: 0; z-index: -1;
+    background:
+      radial-gradient(circle at 12% 8%, rgba(34,211,238,.18), transparent 42%),
+      radial-gradient(circle at 88% 92%, rgba(147,51,234,.16), transparent 46%),
+      #05070b;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 56px 22px 96px; }
+  .brand { font-size: 13px; letter-spacing: 3px; font-weight: 800; color: #5eead4; text-transform: uppercase; }
+  h1 { font-size: 30px; font-weight: 800; margin: 8px 0 4px; }
+  .updated { color: #8aa0ab; font-size: 13px; margin-bottom: 32px; }
+  h2 { font-size: 19px; font-weight: 700; margin: 34px 0 10px; color: #bdeefb; }
+  p, li { color: #cfe2ea; font-size: 15px; }
+  a { color: #4dd6ef; }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  .card {
+    background: rgba(255,255,255,.04); border: 1px solid rgba(94,234,212,.18);
+    border-radius: 16px; padding: 18px 20px; margin-top: 18px;
+  }
+  .foot { margin-top: 48px; color: #6f8693; font-size: 13px; border-top: 1px solid rgba(255,255,255,.08); padding-top: 18px; }
+  .foot a { color: #8aa0ab; }
+</style>
+</head>
+<body>
+<div class="bg"></div>
+<div class="wrap">
+  <div class="brand">Orbicast</div>
+  <h1>Privacy Policy</h1>
+  <div class="updated">Last updated: 17 June 2026</div>
+
+  <p>
+    Orbicast turns any place on the map into a cinematic 3D drone flyover. We
+    built Orbicast to be private by default: <strong>we do not require an
+    account, we do not ask for your name or email, and we do not sell your
+    data or use third-party advertising or tracking.</strong>
+  </p>
+
+  <div class="card">
+    <strong>In short:</strong> No login. No personal profile. No ads. No data
+    sold. The only identifier we use is a random, anonymous device ID so your
+    renders stay tied to your device.
+  </div>
+
+  <h2>1. Information we process</h2>
+  <ul>
+    <li><strong>Anonymous device identifier.</strong> When you first open the
+      app, we generate a random ID (a UUID) stored securely on your device's
+      Keychain. It is not linked to your identity, Apple ID, name, or email. It
+      lets us keep "My Renders" tied to your device and prevent free-tier abuse.</li>
+    <li><strong>Map coordinates you render.</strong> When you create a flyover,
+      the latitude/longitude of the spot you chose is sent to our servers to
+      generate and store the video. We do not continuously track your location.</li>
+    <li><strong>Your location (optional).</strong> If you grant location access,
+      it is used only to center the map on your current area. You can deny this
+      and use the app normally.</li>
+    <li><strong>Rendered videos.</strong> Videos you create are stored on your
+      device and backed up to our cloud storage (so they survive reinstalling
+      the app), tied only to your anonymous device ID.</li>
+    <li><strong>Purchase information.</strong> Subscriptions are handled by
+      Apple and our subscription provider (RevenueCat). We receive your
+      subscription status (active / not active), never your payment-card data.</li>
+  </ul>
+
+  <h2>2. What we do NOT collect</h2>
+  <ul>
+    <li>No name, email, phone number, or account.</li>
+    <li>No advertising identifiers and no third-party ad/tracking SDKs.</li>
+    <li>No contacts, photos (except a video you explicitly choose to save to
+      your Photo Library), microphone, or browsing history.</li>
+  </ul>
+
+  <h2>3. Third-party services</h2>
+  <p>To provide core features, Orbicast relies on these providers, which process
+     data only as needed to deliver the service:</p>
+  <ul>
+    <li><strong>Google Maps Platform</strong> — map display and Photorealistic
+      3D Tiles for the studio and flight simulator.</li>
+    <li><strong>Google Cloud</strong> — hosting, video storage, and the render
+      backend.</li>
+    <li><strong>RevenueCat &amp; Apple</strong> — processing and validating
+      subscription purchases.</li>
+  </ul>
+
+  <h2>4. Data retention &amp; deletion</h2>
+  <p>
+    Your renders are kept so you can access them across devices and reinstalls.
+    You can delete any render at any time from the "My Renders" tab, which
+    removes both the local copy and the cloud copy. Because your data is tied
+    only to an anonymous device ID, deleting the app and clearing this ID
+    effectively disassociates remaining cloud data from you.
+  </p>
+
+  <h2>5. Children</h2>
+  <p>Orbicast is not directed to children under 13 and we do not knowingly
+     collect personal information from them.</p>
+
+  <h2>6. Changes to this policy</h2>
+  <p>We may update this policy as the app evolves. Material changes will be
+     reflected here with a new "Last updated" date.</p>
+
+  <h2>7. Contact</h2>
+  <p>Questions about privacy? Email
+     <a href="mailto:aliolgen@hotmail.com">aliolgen@hotmail.com</a>.</p>
+
+  <div class="foot">
+    © 2026 Orbicast · <a href="terms.html">Terms of Use</a> ·
+    <a href="index.html">Home</a>
+  </div>
+</div>
+</body>
+</html>
